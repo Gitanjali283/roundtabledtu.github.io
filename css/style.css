@@ -213,6 +213,7 @@ p {
       opacity: .2;
       user-select: none; }
   .tile .heading {
+    min-height: 75px;
     width: 90%;
     font-family: "Didact Gothic", sans-serif;
     font-size: 1.4em;
@@ -325,7 +326,14 @@ footer {
     footer p a:hover {
       border-bottom: 1px solid #FFF; }
 
+.shorter {
+  width: 72.5%;
+  margin: auto; }
+
 @media screen and (max-width: 850px) {
+  .shorter {
+    width: 100%; }
+
   .content {
     width: 70%; }
 

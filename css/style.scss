@@ -292,6 +292,7 @@ p
 
 	.heading
 	{
+		min-height: 75px;
 		width: 90%;
 		font-family: $primary-font;
 		font-size: 1.4em;
@@ -464,7 +465,18 @@ footer
 	}
 }
 
+.shorter
+{
+	width: 72.5%;
+	margin: auto;
+}
+
 @media screen and (max-width: 850px) {
+
+	.shorter
+	{
+		width: 100%;
+	}
 
 	.content
 	{
